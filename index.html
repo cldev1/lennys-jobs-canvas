@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Personal research canvas for Lenny's Jobs / TrueUp listings. Improvised filters and search — not affiliated." />
+  <title>Lenny's Jobs Canvas</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <h1>Lenny's Jobs Canvas</h1>
+        <p class="tagline">Personal research canvas · data from <a href="https://www.lennysjobs.com/" target="_blank" rel="noopener">Lenny's Jobs</a> / TrueUp</p>
+      </div>
+      <div class="meta-bar" id="metaBar">Loading…</div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="filters" aria-label="Filters">
+      <label class="field">
+        <span>Search</span>
+        <input type="search" id="searchInput" placeholder="Title, company, tags…" autocomplete="off" />
+      </label>
+      <label class="field">
+        <span>Company</span>
+        <select id="companyFilter"><option value="">All companies</option></select>
+      </label>
+      <label class="field">
+        <span>Location</span>
+        <select id="locationFilter"><option value="">All locations</option></select>
+      </label>
+      <label class="field">
+        <span>Level</span>
+        <select id="levelFilter"><option value="">All levels</option></select>
+      </label>
+      <label class="field">
+        <span>Sort</span>
+        <select id="sortSelect">
+          <option value="updated_desc">Updated (newest)</option>
+          <option value="salary_desc">Salary (high → low)</option>
+          <option value="salary_asc">Salary (low → high)</option>
+          <option value="title_asc">Title (A → Z)</option>
+          <option value="company_asc">Company (A → Z)</option>
+          <option value="trajectory_desc">Trajectory score</option>
+        </select>
+      </label>
+      <label class="field checkbox">
+        <input type="checkbox" id="salaryOnly" />
+        <span>Has salary listed</span>
+      </label>
+      <button type="button" class="btn ghost" id="resetFilters">Reset filters</button>
+      <p class="hint">Snapshot is Product-focused by default. Refresh via <code>scripts/fetch_lenny_jobs.py</code>.</p>
+    </aside>
+
+    <section class="results" aria-live="polite">
+      <div class="results-header">
+        <h2 id="resultCount">—</h2>
+      </div>
+      <div class="cards" id="cards"></div>
+      <p class="empty" id="emptyState" hidden>No jobs match these filters.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      Not affiliated with Lenny's Newsletter, Lenny's Jobs, or TrueUp.
+      Listings come from the public TrueUp search API used by
+      <a href="https://www.lennysjobs.com/" target="_blank" rel="noopener">lennysjobs.com</a>.
+      Full job descriptions are not scraped — open Apply for the source posting.
+    </p>
+    <p>
+      <a href="https://github.com/cldev1/lennys-jobs-canvas" target="_blank" rel="noopener">Source on GitHub</a>
+      · Improve the canvas, tighten filters, or refresh <code>data/jobs.json</code>.
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

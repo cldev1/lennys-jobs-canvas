@@ -1,0 +1,95 @@
+{
+  "source": "Lenny's Jobs via TrueUp arc.trueup.io",
+  "partner": "lenny",
+  "query": "Product Manager, Senior Product Manager, Group Product Manager, Head of Product, Director of Product, Principal Product Manager, Staff Product Manager, VP of Product, Product Lead, Associate Product Manager",
+  "queries": [
+    "Product Manager",
+    "Senior Product Manager",
+    "Group Product Manager",
+    "Head of Product",
+    "Director of Product",
+    "Principal Product Manager",
+    "Staff Product Manager",
+    "VP of Product",
+    "Product Lead",
+    "Associate Product Manager"
+  ],
+  "fetched_at": "2026-09-06T09:47:04.468406+00:00",
+  "count": 1892,
+  "per_query": [
+    {
+      "query": "Product Manager",
+      "nbHits": 7794,
+      "nbPages": 6,
+      "hitsPerPage": 50,
+      "added": 300
+    },
+    {
+      "query": "Senior Product Manager",
+      "nbHits": 2458,
+      "nbPages": 6,
+      "hitsPerPage": 50,
+      "added": 218
+    },
+    {
+      "query": "Group Product Manager",
+      "nbHits": 137,
+      "nbPages": 3,
+      "hitsPerPage": 50,
+      "added": 129
+    },
+    {
+      "query": "Head of Product",
+      "nbHits": 89,
+      "nbPages": 2,
+      "hitsPerPage": 50,
+      "added": 88
+    },
+    {
+      "query": "Director of Product",
+      "nbHits": 234,
+      "nbPages": 5,
+      "hitsPerPage": 50,
+      "added": 233
+    },
+    {
+      "query": "Principal Product Manager",
+      "nbHits": 697,
+      "nbPages": 6,
+      "hitsPerPage": 50,
+      "added": 254
+    },
+    {
+      "query": "Staff Product Manager",
+      "nbHits": 532,
+      "nbPages": 6,
+      "hitsPerPage": 50,
+      "added": 274
+    },
+    {
+      "query": "VP of Product",
+      "nbHits": 23,
+      "nbPages": 1,
+      "hitsPerPage": 50,
+      "added": 21
+    },
+    {
+      "query": "Product Lead",
+      "nbHits": 1079,
+      "nbPages": 6,
+      "hitsPerPage": 50,
+      "added": 286
+    },
+    {
+      "query": "Associate Product Manager",
+      "nbHits": 93,
+      "nbPages": 2,
+      "hitsPerPage": 50,
+      "added": 89
+    }
+  ],
+  "hits_per_page": 50,
+  "max_pages": 10,
+  "all": false,
+  "note": "Personal research canvas. Data from Lenny's Jobs / TrueUp. Not affiliated. API typically caps ~6 pages per query."
+}
