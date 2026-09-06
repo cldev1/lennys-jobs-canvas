@@ -42,10 +42,13 @@ The `x-rc` algorithm (HMAC-SHA1 TOTP-style counter over 30s windows, then HMAC-S
 ## Refresh data
 
 ```bash
+# Recommended: partitioned Product Management category crawl (~full guest coverage)
+python3 scripts/fetch_lenny_jobs.py --product-all
+
 # Default: Product Manager query (API typically caps ~6 pages ≈ 300 hits per query)
 python3 scripts/fetch_lenny_jobs.py
 
-# Merge several Product-focused queries (recommended for a richer Pages snapshot)
+# Merge several Product-focused queries
 python3 scripts/fetch_lenny_jobs.py \
   --queries "Product Manager,Senior Product Manager,Group Product Manager,Head of Product,Director of Product,Principal Product Manager,Staff Product Manager,VP of Product,Product Lead,Associate Product Manager" \
   --max-pages 10 --hits-per-page 50
@@ -68,6 +71,10 @@ cd /path/to/lennys-jobs-canvas
 python3 -m http.server 8080
 # open http://localhost:8080
 ```
+
+## Visa / sponsorship
+
+The guest search API does **not** expose visa or sponsorship fields. The canvas does not invent them — check each Apply link on the source posting.
 
 ## Extending the canvas
 

@@ -6,3 +6,4 @@ venv/
 *.egg-info/
 .idea/
 .vscode/
+fetch_run.log

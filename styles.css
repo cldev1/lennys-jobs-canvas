@@ -275,6 +275,12 @@ code {
   border-color: color-mix(in srgb, var(--warn) 35%, var(--border));
 }
 
+.pill.remote {
+  color: var(--accent-2);
+  border-color: color-mix(in srgb, var(--accent-2) 40%, var(--border));
+  font-weight: 600;
+}
+
 .tags {
   display: flex;
   flex-wrap: wrap;

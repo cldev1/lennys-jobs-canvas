@@ -1,95 +1,2962 @@
 {
   "source": "Lenny's Jobs via TrueUp arc.trueup.io",
   "partner": "lenny",
-  "query": "Product Manager, Senior Product Manager, Group Product Manager, Head of Product, Director of Product, Principal Product Manager, Staff Product Manager, VP of Product, Product Lead, Associate Product Manager",
+  "query": "(product-all / Product Management)",
   "queries": [
-    "Product Manager",
-    "Senior Product Manager",
-    "Group Product Manager",
-    "Head of Product",
-    "Director of Product",
-    "Principal Product Manager",
-    "Staff Product Manager",
-    "VP of Product",
-    "Product Lead",
-    "Associate Product Manager"
+    "(product-all / Product Management)"
   ],
-  "fetched_at": "2026-09-06T09:47:04.468406+00:00",
-  "count": 1892,
-  "per_query": [
+  "fetched_at": "2026-09-06T11:40:58.670265+00:00",
+  "count": 6687,
+  "remote_count": 1983,
+  "hits_per_page": 50,
+  "max_pages": null,
+  "all": false,
+  "product_all": true,
+  "note": "Personal research canvas. Data from Lenny's Jobs / TrueUp. Not affiliated. Guest API caps ~6 pages (~300 hits) per query/filter combo; --product-all partitions by facets to approach full PM coverage. Visa/sponsorship is not exposed by this API \u2014 do not invent it.",
+  "mode": "product-all",
+  "category": "Product Management",
+  "category_nbHits": 8139,
+  "product_manager_query_nbHits": 7794,
+  "leaf_partitions": 367,
+  "truncated_partitions": 2,
+  "partition_stats": [
     {
-      "query": "Product Manager",
-      "nbHits": 7794,
-      "nbPages": 6,
-      "hitsPerPage": 50,
-      "added": 300
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Cloud + Tech Infrastructure",
+      "nbHits": 198,
+      "truncated": false,
+      "added": 198,
+      "fetched": 198,
+      "pages_fetched": 4
     },
     {
-      "query": "Senior Product Manager",
-      "nbHits": 2458,
-      "nbPages": 6,
-      "hitsPerPage": 50,
-      "added": 218
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:B2B SaaS",
+      "nbHits": 188,
+      "truncated": false,
+      "added": 158,
+      "fetched": 188,
+      "pages_fetched": 4
     },
     {
-      "query": "Group Product Manager",
-      "nbHits": 137,
-      "nbPages": 3,
-      "hitsPerPage": 50,
-      "added": 129
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:AI",
+      "nbHits": 82,
+      "truncated": false,
+      "added": 28,
+      "fetched": 82,
+      "pages_fetched": 2
     },
     {
-      "query": "Head of Product",
-      "nbHits": 89,
-      "nbPages": 2,
-      "hitsPerPage": 50,
-      "added": 88
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Consumer",
+      "nbHits": 61,
+      "truncated": false,
+      "added": 56,
+      "fetched": 61,
+      "pages_fetched": 2
     },
     {
-      "query": "Director of Product",
-      "nbHits": 234,
-      "nbPages": 5,
-      "hitsPerPage": 50,
-      "added": 233
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Future of Work",
+      "nbHits": 45,
+      "truncated": false,
+      "added": 2,
+      "fetched": 45,
+      "pages_fetched": 1
     },
     {
-      "query": "Principal Product Manager",
-      "nbHits": 697,
-      "nbPages": 6,
-      "hitsPerPage": 50,
-      "added": 254
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:FinTech",
+      "nbHits": 41,
+      "truncated": false,
+      "added": 14,
+      "fetched": 41,
+      "pages_fetched": 1
     },
     {
-      "query": "Staff Product Manager",
-      "nbHits": 532,
-      "nbPages": 6,
-      "hitsPerPage": 50,
-      "added": 274
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:HealthTech",
+      "nbHits": 40,
+      "truncated": false,
+      "added": 2,
+      "fetched": 40,
+      "pages_fetched": 1
     },
     {
-      "query": "VP of Product",
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Security",
+      "nbHits": 38,
+      "truncated": false,
+      "added": 5,
+      "fetched": 38,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Supply Chain",
+      "nbHits": 35,
+      "truncated": false,
+      "added": 25,
+      "fetched": 35,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:AdTech",
+      "nbHits": 26,
+      "truncated": false,
+      "added": 10,
+      "fetched": 26,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Hardware",
       "nbHits": 23,
-      "nbPages": 1,
-      "hitsPerPage": 50,
-      "added": 21
+      "truncated": false,
+      "added": 15,
+      "fetched": 23,
+      "pages_fetched": 1
     },
     {
-      "query": "Product Lead",
-      "nbHits": 1079,
-      "nbPages": 6,
-      "hitsPerPage": 50,
-      "added": 286
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Open Source",
+      "nbHits": 21,
+      "truncated": false,
+      "added": 0,
+      "fetched": 21,
+      "pages_fetched": 1
     },
     {
-      "query": "Associate Product Manager",
-      "nbHits": 93,
-      "nbPages": 2,
-      "hitsPerPage": 50,
-      "added": 89
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Marketplaces",
+      "nbHits": 20,
+      "truncated": false,
+      "added": 2,
+      "fetched": 20,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Semiconductors",
+      "nbHits": 19,
+      "truncated": false,
+      "added": 4,
+      "fetched": 19,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Real Estate",
+      "nbHits": 14,
+      "truncated": false,
+      "added": 9,
+      "fetched": 14,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Transportation",
+      "nbHits": 8,
+      "truncated": false,
+      "added": 0,
+      "fetched": 8,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Digital Media",
+      "nbHits": 7,
+      "truncated": false,
+      "added": 0,
+      "fetched": 7,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Space",
+      "nbHits": 7,
+      "truncated": false,
+      "added": 6,
+      "fetched": 7,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Consumer Social",
+      "nbHits": 6,
+      "truncated": false,
+      "added": 0,
+      "fetched": 6,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Creator Economy",
+      "nbHits": 6,
+      "truncated": false,
+      "added": 1,
+      "fetched": 6,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:On Demand",
+      "nbHits": 6,
+      "truncated": false,
+      "added": 0,
+      "fetched": 6,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Robotics",
+      "nbHits": 6,
+      "truncated": false,
+      "added": 0,
+      "fetched": 6,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Manufacturing",
+      "nbHits": 4,
+      "truncated": false,
+      "added": 0,
+      "fetched": 4,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Internet of Things",
+      "nbHits": 3,
+      "truncated": false,
+      "added": 0,
+      "fetched": 3,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Metaverse",
+      "nbHits": 2,
+      "truncated": false,
+      "added": 0,
+      "fetched": 2,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:Consumer",
+      "nbHits": 152,
+      "truncated": false,
+      "added": 91,
+      "fetched": 152,
+      "pages_fetched": 4
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:Cloud + Tech Infrastructure",
+      "nbHits": 65,
+      "truncated": false,
+      "added": 0,
+      "fetched": 65,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:Hardware",
+      "nbHits": 38,
+      "truncated": false,
+      "added": 13,
+      "fetched": 38,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:AI",
+      "nbHits": 36,
+      "truncated": false,
+      "added": 0,
+      "fetched": 36,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:Digital Media",
+      "nbHits": 33,
+      "truncated": false,
+      "added": 0,
+      "fetched": 33,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:Supply Chain",
+      "nbHits": 32,
+      "truncated": false,
+      "added": 0,
+      "fetched": 32,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:FinTech",
+      "nbHits": 31,
+      "truncated": false,
+      "added": 0,
+      "fetched": 31,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:Marketplaces",
+      "nbHits": 30,
+      "truncated": false,
+      "added": 0,
+      "fetched": 30,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:Transportation",
+      "nbHits": 26,
+      "truncated": false,
+      "added": 0,
+      "fetched": 26,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:GameTech",
+      "nbHits": 24,
+      "truncated": false,
+      "added": 0,
+      "fetched": 24,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:B2B SaaS",
+      "nbHits": 20,
+      "truncated": false,
+      "added": 0,
+      "fetched": 20,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:AdTech",
+      "nbHits": 14,
+      "truncated": false,
+      "added": 0,
+      "fetched": 14,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:Climate Tech",
+      "nbHits": 14,
+      "truncated": false,
+      "added": 0,
+      "fetched": 14,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:Consumer Social",
+      "nbHits": 14,
+      "truncated": false,
+      "added": 0,
+      "fetched": 14,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:Creator Economy",
+      "nbHits": 13,
+      "truncated": false,
+      "added": 0,
+      "fetched": 13,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:Electric Vehicles",
+      "nbHits": 13,
+      "truncated": false,
+      "added": 0,
+      "fetched": 13,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:Energy",
+      "nbHits": 13,
+      "truncated": false,
+      "added": 0,
+      "fetched": 13,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:HealthTech",
+      "nbHits": 13,
+      "truncated": false,
+      "added": 0,
+      "fetched": 13,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:Real Estate",
+      "nbHits": 13,
+      "truncated": false,
+      "added": 0,
+      "fetched": 13,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:On Demand",
+      "nbHits": 10,
+      "truncated": false,
+      "added": 0,
+      "fetched": 10,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:EdTech",
+      "nbHits": 7,
+      "truncated": false,
+      "added": 0,
+      "fetched": 7,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:Metaverse",
+      "nbHits": 7,
+      "truncated": false,
+      "added": 0,
+      "fetched": 7,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:Security",
+      "nbHits": 7,
+      "truncated": false,
+      "added": 0,
+      "fetched": 7,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:e-Commerce",
+      "nbHits": 6,
+      "truncated": false,
+      "added": 0,
+      "fetched": 6,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C AND themes:Direct-to-Consumer (DTC)",
+      "nbHits": 3,
+      "truncated": false,
+      "added": 0,
+      "fetched": 3,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 San Francisco Bay Area",
+      "nbHits": 277,
+      "truncated": false,
+      "added": 36,
+      "fetched": 277,
+      "pages_fetched": 6
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Seattle",
+      "nbHits": 206,
+      "truncated": false,
+      "added": 76,
+      "fetched": 206,
+      "pages_fetched": 5
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\udf0e Remote",
+      "nbHits": 168,
+      "truncated": false,
+      "added": 47,
+      "fetched": 168,
+      "pages_fetched": 4
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddee\ud83c\uddf3 India",
+      "nbHits": 117,
+      "truncated": false,
+      "added": 114,
+      "fetched": 117,
+      "pages_fetched": 3
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States (remote)",
+      "nbHits": 106,
+      "truncated": false,
+      "added": 0,
+      "fetched": 106,
+      "pages_fetched": 3
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 New York City",
+      "nbHits": 86,
+      "truncated": false,
+      "added": 6,
+      "fetched": 86,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddee\ud83c\uddf3 Bengaluru, India",
+      "nbHits": 78,
+      "truncated": false,
+      "added": 0,
+      "fetched": 78,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\udde8\ud83c\udde6 Canada",
+      "nbHits": 70,
+      "truncated": false,
+      "added": 37,
+      "fetched": 70,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Boston",
+      "nbHits": 44,
+      "truncated": false,
+      "added": 8,
+      "fetched": 44,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddec\ud83c\udde7 United Kingdom",
+      "nbHits": 42,
+      "truncated": false,
+      "added": 36,
+      "fetched": 42,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Austin",
+      "nbHits": 39,
+      "truncated": false,
+      "added": 16,
+      "fetched": 39,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddee\ud83c\uddf1 Israel",
+      "nbHits": 38,
+      "truncated": false,
+      "added": 30,
+      "fetched": 38,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\udde8\ud83c\udde6 Toronto, Canada",
+      "nbHits": 36,
+      "truncated": false,
+      "added": 0,
+      "fetched": 36,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddec\ud83c\udde7 London, UK",
+      "nbHits": 35,
+      "truncated": false,
+      "added": 0,
+      "fetched": 35,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddee\ud83c\uddf1 Tel Aviv, Israel",
+      "nbHits": 35,
+      "truncated": false,
+      "added": 0,
+      "fetched": 35,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Washington D.C.",
+      "nbHits": 31,
+      "truncated": false,
+      "added": 3,
+      "fetched": 31,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\udde9\ud83c\uddea Germany",
+      "nbHits": 26,
+      "truncated": false,
+      "added": 24,
+      "fetched": 26,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\udde8\ud83c\udde6 Canada (remote)",
+      "nbHits": 24,
+      "truncated": false,
+      "added": 0,
+      "fetched": 24,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Public tech AND job_locations_combined:\ud83c\udde8\ud83c\uddf3 China",
+      "nbHits": 24,
+      "truncated": false,
+      "added": 24,
+      "fetched": 24,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B",
+      "nbHits": 250,
+      "truncated": false,
+      "added": 250,
+      "fetched": 250,
+      "pages_fetched": 5
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C",
+      "nbHits": 113,
+      "truncated": false,
+      "added": 94,
+      "fetched": 113,
+      "pages_fetched": 3
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 San Francisco Bay Area",
+      "nbHits": 210,
+      "truncated": false,
+      "added": 36,
+      "fetched": 210,
+      "pages_fetched": 5
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Unicorn AND job_locations_combined:\ud83c\udf0e Remote",
+      "nbHits": 179,
+      "truncated": false,
+      "added": 89,
+      "fetched": 179,
+      "pages_fetched": 4
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States (remote)",
+      "nbHits": 97,
+      "truncated": false,
+      "added": 0,
+      "fetched": 97,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 New York City",
+      "nbHits": 95,
+      "truncated": false,
+      "added": 7,
+      "fetched": 95,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddec\ud83c\udde7 United Kingdom",
+      "nbHits": 58,
+      "truncated": false,
+      "added": 36,
+      "fetched": 58,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Unicorn AND job_locations_combined:\ud83c\udde8\ud83c\udde6 Canada",
+      "nbHits": 43,
+      "truncated": false,
+      "added": 11,
+      "fetched": 43,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddf8\ud83c\uddec Singapore",
+      "nbHits": 43,
+      "truncated": false,
+      "added": 36,
+      "fetched": 43,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddea\ud83c\uddf8 Spain",
+      "nbHits": 38,
+      "truncated": false,
+      "added": 12,
+      "fetched": 38,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddec\ud83c\udde7 London, UK",
+      "nbHits": 34,
+      "truncated": false,
+      "added": 0,
+      "fetched": 34,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Seattle",
+      "nbHits": 34,
+      "truncated": false,
+      "added": 1,
+      "fetched": 34,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddee\ud83c\uddf3 India",
+      "nbHits": 33,
+      "truncated": false,
+      "added": 25,
+      "fetched": 33,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddee\ud83c\uddf1 Israel",
+      "nbHits": 28,
+      "truncated": false,
+      "added": 14,
+      "fetched": 28,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Unicorn AND job_locations_combined:\ud83c\udde9\ud83c\uddea Germany",
+      "nbHits": 24,
+      "truncated": false,
+      "added": 13,
+      "fetched": 24,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Unicorn AND job_locations_combined:\ud83c\udded\ud83c\uddf0 Hong Kong",
+      "nbHits": 24,
+      "truncated": false,
+      "added": 15,
+      "fetched": 24,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddf5\ud83c\uddf9 Portugal",
+      "nbHits": 22,
+      "truncated": false,
+      "added": 5,
+      "fetched": 22,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddf5\ud83c\uddf1 Poland",
+      "nbHits": 20,
+      "truncated": false,
+      "added": 1,
+      "fetched": 20,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Boston",
+      "nbHits": 20,
+      "truncated": false,
+      "added": 1,
+      "fetched": 20,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddee\ud83c\uddf1 Tel Aviv, Israel",
+      "nbHits": 19,
+      "truncated": false,
+      "added": 0,
+      "fetched": 19,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddf1\ud83c\uddf9 Lithuania",
+      "nbHits": 19,
+      "truncated": false,
+      "added": 8,
+      "fetched": 19,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:AI",
+      "nbHits": 336,
+      "truncated": true,
+      "added": 300,
+      "fetched": 300,
+      "pages_fetched": 6
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:B2B SaaS",
+      "nbHits": 28,
+      "truncated": false,
+      "added": 22,
+      "fetched": 28,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:FinTech",
+      "nbHits": 22,
+      "truncated": false,
+      "added": 14,
+      "fetched": 22,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Future of Work",
+      "nbHits": 21,
+      "truncated": false,
+      "added": 4,
+      "fetched": 21,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:HealthTech",
+      "nbHits": 21,
+      "truncated": false,
+      "added": 9,
+      "fetched": 21,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Cloud + Tech Infrastructure",
+      "nbHits": 13,
+      "truncated": false,
+      "added": 6,
+      "fetched": 13,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Security",
+      "nbHits": 13,
+      "truncated": false,
+      "added": 3,
+      "fetched": 13,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Consumer",
+      "nbHits": 8,
+      "truncated": false,
+      "added": 1,
+      "fetched": 8,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:EdTech",
+      "nbHits": 6,
+      "truncated": false,
+      "added": 2,
+      "fetched": 6,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Open Source",
+      "nbHits": 5,
+      "truncated": false,
+      "added": 0,
+      "fetched": 5,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Crypto",
+      "nbHits": 4,
+      "truncated": false,
+      "added": 0,
+      "fetched": 4,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Transportation",
+      "nbHits": 4,
+      "truncated": false,
+      "added": 3,
+      "fetched": 4,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Mental Health",
+      "nbHits": 3,
+      "truncated": false,
+      "added": 0,
+      "fetched": 3,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:GameTech",
+      "nbHits": 2,
+      "truncated": false,
+      "added": 1,
+      "fetched": 2,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Generative AI",
+      "nbHits": 2,
+      "truncated": false,
+      "added": 0,
+      "fetched": 2,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Real Estate",
+      "nbHits": 2,
+      "truncated": false,
+      "added": 2,
+      "fetched": 2,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Supply Chain",
+      "nbHits": 2,
+      "truncated": false,
+      "added": 0,
+      "fetched": 2,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:AgTech",
+      "nbHits": 1,
+      "truncated": false,
+      "added": 0,
+      "fetched": 1,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Climate Tech",
+      "nbHits": 1,
+      "truncated": false,
+      "added": 0,
+      "fetched": 1,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Digital Media",
+      "nbHits": 1,
+      "truncated": false,
+      "added": 0,
+      "fetched": 1,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Electric Vehicles",
+      "nbHits": 1,
+      "truncated": false,
+      "added": 0,
+      "fetched": 1,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Hardware",
+      "nbHits": 1,
+      "truncated": false,
+      "added": 0,
+      "fetched": 1,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Internet of Things",
+      "nbHits": 1,
+      "truncated": false,
+      "added": 1,
+      "fetched": 1,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Metaverse",
+      "nbHits": 1,
+      "truncated": false,
+      "added": 0,
+      "fetched": 1,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:e-Commerce",
+      "nbHits": 1,
+      "truncated": false,
+      "added": 0,
+      "fetched": 1,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States",
+      "nbHits": 224,
+      "truncated": false,
+      "added": 150,
+      "fetched": 224,
+      "pages_fetched": 5
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 San Francisco Bay Area",
+      "nbHits": 84,
+      "truncated": false,
+      "added": 0,
+      "fetched": 84,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States (remote)",
+      "nbHits": 67,
+      "truncated": false,
+      "added": 0,
+      "fetched": 67,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 New York City",
+      "nbHits": 60,
+      "truncated": false,
+      "added": 0,
+      "fetched": 60,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddec\ud83c\udde7 United Kingdom",
+      "nbHits": 37,
+      "truncated": false,
+      "added": 32,
+      "fetched": 37,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddf0\ud83c\uddf7 South Korea",
+      "nbHits": 31,
+      "truncated": false,
+      "added": 16,
+      "fetched": 31,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udde9\ud83c\uddea Germany",
+      "nbHits": 30,
+      "truncated": false,
+      "added": 11,
+      "fetched": 30,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddee\ud83c\uddf1 Israel",
+      "nbHits": 28,
+      "truncated": false,
+      "added": 18,
+      "fetched": 28,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddea\ud83c\uddf8 Spain",
+      "nbHits": 22,
+      "truncated": false,
+      "added": 3,
+      "fetched": 22,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddee\ud83c\udde9 Indonesia",
+      "nbHits": 22,
+      "truncated": false,
+      "added": 4,
+      "fetched": 22,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddee\ud83c\uddea Ireland",
+      "nbHits": 22,
+      "truncated": false,
+      "added": 2,
+      "fetched": 22,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddee\ud83c\uddf1 Tel Aviv, Israel",
+      "nbHits": 22,
+      "truncated": false,
+      "added": 0,
+      "fetched": 22,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddf0\ud83c\uddf7 Seoul, South Korea",
+      "nbHits": 22,
+      "truncated": false,
+      "added": 0,
+      "fetched": 22,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddee\ud83c\udde9 Indonesia (remote)",
+      "nbHits": 21,
+      "truncated": false,
+      "added": 0,
+      "fetched": 21,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddf5\ud83c\uddf1 Poland",
+      "nbHits": 21,
+      "truncated": false,
+      "added": 0,
+      "fetched": 21,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddf8\ud83c\uddec Singapore",
+      "nbHits": 21,
+      "truncated": false,
+      "added": 4,
+      "fetched": 21,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddf8\ud83c\uddec Singapore (remote)",
+      "nbHits": 21,
+      "truncated": false,
+      "added": 0,
+      "fetched": 21,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddf3\ud83c\uddf1 Netherlands",
+      "nbHits": 20,
+      "truncated": false,
+      "added": 3,
+      "fetched": 20,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddf5\ud83c\uddf9 Portugal",
+      "nbHits": 20,
+      "truncated": false,
+      "added": 4,
+      "fetched": 20,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Other AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States",
+      "nbHits": 240,
+      "truncated": false,
+      "added": 240,
+      "fetched": 240,
+      "pages_fetched": 5
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Other AND job_locations_combined:\ud83c\udf0e Remote",
+      "nbHits": 155,
+      "truncated": false,
+      "added": 58,
+      "fetched": 155,
+      "pages_fetched": 4
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Other AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States (remote)",
+      "nbHits": 80,
+      "truncated": false,
+      "added": 0,
+      "fetched": 80,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Other AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 San Francisco Bay Area",
+      "nbHits": 45,
+      "truncated": false,
+      "added": 0,
+      "fetched": 45,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Other AND job_locations_combined:\ud83c\uddec\ud83c\udde7 United Kingdom",
+      "nbHits": 42,
+      "truncated": false,
+      "added": 31,
+      "fetched": 42,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Other AND job_locations_combined:\ud83c\uddee\ud83c\uddf3 India",
+      "nbHits": 41,
+      "truncated": false,
+      "added": 38,
+      "fetched": 41,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Other AND job_locations_combined:\ud83c\udde8\ud83c\udde6 Canada",
+      "nbHits": 39,
+      "truncated": false,
+      "added": 17,
+      "fetched": 39,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Other AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 New York City",
+      "nbHits": 32,
+      "truncated": false,
+      "added": 0,
+      "fetched": 32,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Other AND job_locations_combined:\ud83c\udde9\ud83c\uddea Germany",
+      "nbHits": 25,
+      "truncated": false,
+      "added": 10,
+      "fetched": 25,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Other AND job_locations_combined:\ud83c\uddec\ud83c\udde7 London, UK",
+      "nbHits": 25,
+      "truncated": false,
+      "added": 0,
+      "fetched": 25,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Other AND job_locations_combined:\ud83c\uddea\ud83c\uddf8 Spain",
+      "nbHits": 24,
+      "truncated": false,
+      "added": 12,
+      "fetched": 24,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Other AND job_locations_combined:\ud83c\uddee\ud83c\uddf1 Israel",
+      "nbHits": 21,
+      "truncated": false,
+      "added": 12,
+      "fetched": 21,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Other AND job_locations_combined:\ud83c\uddee\ud83c\uddf3 Bengaluru, India",
+      "nbHits": 19,
+      "truncated": false,
+      "added": 0,
+      "fetched": 19,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Other AND job_locations_combined:\ud83c\uddee\ud83c\uddf1 Tel Aviv, Israel",
+      "nbHits": 16,
+      "truncated": false,
+      "added": 0,
+      "fetched": 16,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Other AND job_locations_combined:\ud83c\udde8\ud83c\udde6 Canada (remote)",
+      "nbHits": 15,
+      "truncated": false,
+      "added": 0,
+      "fetched": 15,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Other AND job_locations_combined:\ud83c\uddeb\ud83c\uddf7 France",
+      "nbHits": 15,
+      "truncated": false,
+      "added": 6,
+      "fetched": 15,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Other AND job_locations_combined:\ud83c\uddf3\ud83c\uddf1 Netherlands",
+      "nbHits": 14,
+      "truncated": false,
+      "added": 4,
+      "fetched": 14,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Other AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Boston",
+      "nbHits": 13,
+      "truncated": false,
+      "added": 0,
+      "fetched": 13,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Other AND job_locations_combined:\ud83c\udde9\ud83c\uddea Berlin, Germany",
+      "nbHits": 12,
+      "truncated": false,
+      "added": 0,
+      "fetched": 12,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:Other AND job_locations_combined:\ud83c\uddf5\ud83c\uddf1 Poland",
+      "nbHits": 12,
+      "truncated": false,
+      "added": 2,
+      "fetched": 12,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:FAANG+ AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C",
+      "nbHits": 294,
+      "truncated": false,
+      "added": 10,
+      "fetched": 294,
+      "pages_fetched": 6
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:FAANG+ AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B",
+      "nbHits": 265,
+      "truncated": false,
+      "added": 0,
+      "fetched": 265,
+      "pages_fetched": 6
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:FAANG+ AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Seattle",
+      "nbHits": 167,
+      "truncated": false,
+      "added": 0,
+      "fetched": 167,
+      "pages_fetched": 4
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:FAANG+ AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 San Francisco Bay Area",
+      "nbHits": 88,
+      "truncated": false,
+      "added": 0,
+      "fetched": 88,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:FAANG+ AND job_locations_combined:\ud83c\uddee\ud83c\uddf3 India",
+      "nbHits": 56,
+      "truncated": false,
+      "added": 0,
+      "fetched": 56,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:FAANG+ AND job_locations_combined:\ud83c\uddee\ud83c\uddf3 Bengaluru, India",
+      "nbHits": 43,
+      "truncated": false,
+      "added": 0,
+      "fetched": 43,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:FAANG+ AND job_locations_combined:\ud83c\udde8\ud83c\uddf3 China",
+      "nbHits": 17,
+      "truncated": false,
+      "added": 0,
+      "fetched": 17,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:FAANG+ AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 New York City",
+      "nbHits": 16,
+      "truncated": false,
+      "added": 0,
+      "fetched": 16,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:FAANG+ AND job_locations_combined:\ud83c\udde8\ud83c\uddf3 Shanghai, China",
+      "nbHits": 14,
+      "truncated": false,
+      "added": 0,
+      "fetched": 14,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:FAANG+ AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Austin",
+      "nbHits": 13,
+      "truncated": false,
+      "added": 0,
+      "fetched": 13,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:FAANG+ AND job_locations_combined:\ud83c\uddef\ud83c\uddf5 Japan",
+      "nbHits": 11,
+      "truncated": false,
+      "added": 11,
+      "fetched": 11,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:FAANG+ AND job_locations_combined:\ud83c\uddef\ud83c\uddf5 Tokyo, Japan",
+      "nbHits": 11,
+      "truncated": false,
+      "added": 0,
+      "fetched": 11,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:FAANG+ AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Los Angeles",
+      "nbHits": 11,
+      "truncated": false,
+      "added": 0,
+      "fetched": 11,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:FAANG+ AND job_locations_combined:\ud83c\uddee\ud83c\uddf3 Hyderabad, India",
+      "nbHits": 10,
+      "truncated": false,
+      "added": 0,
+      "fetched": 10,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:FAANG+ AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Washington D.C.",
+      "nbHits": 10,
+      "truncated": false,
+      "added": 0,
+      "fetched": 10,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:FAANG+ AND job_locations_combined:\ud83c\udde8\ud83c\udde6 Canada",
+      "nbHits": 8,
+      "truncated": false,
+      "added": 0,
+      "fetched": 8,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:FAANG+ AND job_locations_combined:\ud83c\uddec\ud83c\udde7 London, UK",
+      "nbHits": 7,
+      "truncated": false,
+      "added": 0,
+      "fetched": 7,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:FAANG+ AND job_locations_combined:\ud83c\uddec\ud83c\udde7 United Kingdom",
+      "nbHits": 7,
+      "truncated": false,
+      "added": 0,
+      "fetched": 7,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:FAANG+ AND job_locations_combined:\ud83c\udde7\ud83c\uddf7 Brazil",
+      "nbHits": 6,
+      "truncated": false,
+      "added": 6,
+      "fetched": 6,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:FAANG+ AND job_locations_combined:\ud83c\udde7\ud83c\uddf7 Sao Paulo, Brazil",
+      "nbHits": 6,
+      "truncated": false,
+      "added": 0,
+      "fetched": 6,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:3 AND company_stage:FAANG+ AND job_locations_combined:\ud83c\uddf2\ud83c\uddfd Mexico",
+      "nbHits": 6,
+      "truncated": false,
+      "added": 6,
+      "fetched": 6,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B",
+      "nbHits": 283,
+      "truncated": false,
+      "added": 283,
+      "fetched": 283,
+      "pages_fetched": 6
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C",
+      "nbHits": 241,
+      "truncated": false,
+      "added": 113,
+      "fetched": 241,
+      "pages_fetched": 5
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 San Francisco Bay Area",
+      "nbHits": 227,
+      "truncated": false,
+      "added": 24,
+      "fetched": 227,
+      "pages_fetched": 5
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Public tech AND job_locations_combined:\ud83c\udf0e Remote",
+      "nbHits": 87,
+      "truncated": false,
+      "added": 29,
+      "fetched": 87,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddee\ud83c\uddf3 India",
+      "nbHits": 78,
+      "truncated": false,
+      "added": 75,
+      "fetched": 78,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 New York City",
+      "nbHits": 61,
+      "truncated": false,
+      "added": 0,
+      "fetched": 61,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States (remote)",
+      "nbHits": 54,
+      "truncated": false,
+      "added": 0,
+      "fetched": 54,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddee\ud83c\uddf3 Bengaluru, India",
+      "nbHits": 53,
+      "truncated": false,
+      "added": 0,
+      "fetched": 53,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Seattle",
+      "nbHits": 41,
+      "truncated": false,
+      "added": 0,
+      "fetched": 41,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Public tech AND job_locations_combined:\ud83c\udde8\ud83c\udde6 Canada",
+      "nbHits": 35,
+      "truncated": false,
+      "added": 19,
+      "fetched": 35,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Austin",
+      "nbHits": 29,
+      "truncated": false,
+      "added": 7,
+      "fetched": 29,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddee\ud83c\uddf1 Israel",
+      "nbHits": 28,
+      "truncated": false,
+      "added": 22,
+      "fetched": 28,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddf8\ud83c\uddec Singapore",
+      "nbHits": 28,
+      "truncated": false,
+      "added": 28,
+      "fetched": 28,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddec\ud83c\udde7 United Kingdom",
+      "nbHits": 26,
+      "truncated": false,
+      "added": 21,
+      "fetched": 26,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Boston",
+      "nbHits": 26,
+      "truncated": false,
+      "added": 1,
+      "fetched": 26,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Public tech AND job_locations_combined:\ud83c\udde9\ud83c\uddea Germany",
+      "nbHits": 24,
+      "truncated": false,
+      "added": 14,
+      "fetched": 24,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddec\ud83c\udde7 London, UK",
+      "nbHits": 21,
+      "truncated": false,
+      "added": 0,
+      "fetched": 21,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Public tech AND job_locations_combined:\ud83c\udde8\ud83c\udde6 Toronto, Canada",
+      "nbHits": 20,
+      "truncated": false,
+      "added": 0,
+      "fetched": 20,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddee\ud83c\uddf1 Tel Aviv, Israel",
+      "nbHits": 20,
+      "truncated": false,
+      "added": 0,
+      "fetched": 20,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddf5\ud83c\uddf1 Poland",
+      "nbHits": 17,
+      "truncated": false,
+      "added": 13,
+      "fetched": 17,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddf9\ud83c\uddfc Taiwan",
+      "nbHits": 17,
+      "truncated": false,
+      "added": 17,
+      "fetched": 17,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B",
+      "nbHits": 241,
+      "truncated": false,
+      "added": 241,
+      "fetched": 241,
+      "pages_fetched": 5
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C",
+      "nbHits": 68,
+      "truncated": false,
+      "added": 61,
+      "fetched": 68,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 San Francisco Bay Area",
+      "nbHits": 199,
+      "truncated": false,
+      "added": 28,
+      "fetched": 199,
+      "pages_fetched": 4
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Unicorn AND job_locations_combined:\ud83c\udf0e Remote",
+      "nbHits": 131,
+      "truncated": false,
+      "added": 71,
+      "fetched": 131,
+      "pages_fetched": 3
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 New York City",
+      "nbHits": 91,
+      "truncated": false,
+      "added": 6,
+      "fetched": 91,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddf8\ud83c\uddec Singapore",
+      "nbHits": 63,
+      "truncated": false,
+      "added": 54,
+      "fetched": 63,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States (remote)",
+      "nbHits": 59,
+      "truncated": false,
+      "added": 0,
+      "fetched": 59,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddec\ud83c\udde7 United Kingdom",
+      "nbHits": 58,
+      "truncated": false,
+      "added": 36,
+      "fetched": 58,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddee\ud83c\uddf3 India",
+      "nbHits": 45,
+      "truncated": false,
+      "added": 35,
+      "fetched": 45,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddec\ud83c\udde7 London, UK",
+      "nbHits": 43,
+      "truncated": false,
+      "added": 0,
+      "fetched": 43,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Unicorn AND job_locations_combined:\ud83c\udde9\ud83c\uddea Germany",
+      "nbHits": 32,
+      "truncated": false,
+      "added": 19,
+      "fetched": 32,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Unicorn AND job_locations_combined:\ud83c\udde8\ud83c\udde6 Canada",
+      "nbHits": 29,
+      "truncated": false,
+      "added": 6,
+      "fetched": 29,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddee\ud83c\uddf1 Israel",
+      "nbHits": 29,
+      "truncated": false,
+      "added": 14,
+      "fetched": 29,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddee\ud83c\uddf3 Bengaluru, India",
+      "nbHits": 28,
+      "truncated": false,
+      "added": 0,
+      "fetched": 28,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Unicorn AND job_locations_combined:\ud83c\udde6\ud83c\uddea United Arab Emirates",
+      "nbHits": 23,
+      "truncated": false,
+      "added": 8,
+      "fetched": 23,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Seattle",
+      "nbHits": 23,
+      "truncated": false,
+      "added": 0,
+      "fetched": 23,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddea\ud83c\uddf8 Spain",
+      "nbHits": 21,
+      "truncated": false,
+      "added": 4,
+      "fetched": 21,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddeb\ud83c\uddf7 France",
+      "nbHits": 21,
+      "truncated": false,
+      "added": 6,
+      "fetched": 21,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Unicorn AND job_locations_combined:\ud83c\udded\ud83c\uddf0 Hong Kong",
+      "nbHits": 20,
+      "truncated": false,
+      "added": 5,
+      "fetched": 20,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddf5\ud83c\uddf9 Portugal",
+      "nbHits": 20,
+      "truncated": false,
+      "added": 5,
+      "fetched": 20,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Unicorn AND job_locations_combined:\ud83c\udde8\ud83c\udded Switzerland",
+      "nbHits": 18,
+      "truncated": false,
+      "added": 10,
+      "fetched": 18,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:AI",
+      "nbHits": 447,
+      "truncated": true,
+      "added": 300,
+      "fetched": 300,
+      "pages_fetched": 6
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Cloud + Tech Infrastructure",
+      "nbHits": 19,
+      "truncated": false,
+      "added": 17,
+      "fetched": 19,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:FinTech",
+      "nbHits": 18,
+      "truncated": false,
+      "added": 17,
+      "fetched": 18,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Future of Work",
+      "nbHits": 18,
+      "truncated": false,
+      "added": 3,
+      "fetched": 18,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:B2B SaaS",
+      "nbHits": 17,
+      "truncated": false,
+      "added": 1,
+      "fetched": 17,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Security",
+      "nbHits": 11,
+      "truncated": false,
+      "added": 3,
+      "fetched": 11,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Crypto",
+      "nbHits": 10,
+      "truncated": false,
+      "added": 6,
+      "fetched": 10,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:HealthTech",
+      "nbHits": 8,
+      "truncated": false,
+      "added": 2,
+      "fetched": 8,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Consumer",
+      "nbHits": 7,
+      "truncated": false,
+      "added": 3,
+      "fetched": 7,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Open Source",
+      "nbHits": 5,
+      "truncated": false,
+      "added": 0,
+      "fetched": 5,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Real Estate",
+      "nbHits": 5,
+      "truncated": false,
+      "added": 3,
+      "fetched": 5,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Generative AI",
+      "nbHits": 4,
+      "truncated": false,
+      "added": 0,
+      "fetched": 4,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:e-Commerce",
+      "nbHits": 4,
+      "truncated": false,
+      "added": 2,
+      "fetched": 4,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Quantum Computing",
+      "nbHits": 3,
+      "truncated": false,
+      "added": 1,
+      "fetched": 3,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Supply Chain",
+      "nbHits": 3,
+      "truncated": false,
+      "added": 0,
+      "fetched": 3,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Tech Moonshots",
+      "nbHits": 3,
+      "truncated": false,
+      "added": 0,
+      "fetched": 3,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Transportation",
+      "nbHits": 2,
+      "truncated": false,
+      "added": 0,
+      "fetched": 2,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:AgTech",
+      "nbHits": 1,
+      "truncated": false,
+      "added": 0,
+      "fetched": 1,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Digital Media",
+      "nbHits": 1,
+      "truncated": false,
+      "added": 0,
+      "fetched": 1,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Internet of Things",
+      "nbHits": 1,
+      "truncated": false,
+      "added": 0,
+      "fetched": 1,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Marketplaces",
+      "nbHits": 1,
+      "truncated": false,
+      "added": 0,
+      "fetched": 1,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:On Demand",
+      "nbHits": 1,
+      "truncated": false,
+      "added": 0,
+      "fetched": 1,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Semiconductors",
+      "nbHits": 1,
+      "truncated": false,
+      "added": 0,
+      "fetched": 1,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udf0e Remote AND themes:Transhumanism",
+      "nbHits": 1,
+      "truncated": false,
+      "added": 0,
+      "fetched": 1,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States",
+      "nbHits": 249,
+      "truncated": false,
+      "added": 186,
+      "fetched": 249,
+      "pages_fetched": 5
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 San Francisco Bay Area",
+      "nbHits": 106,
+      "truncated": false,
+      "added": 0,
+      "fetched": 106,
+      "pages_fetched": 3
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 New York City",
+      "nbHits": 72,
+      "truncated": false,
+      "added": 0,
+      "fetched": 72,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States (remote)",
+      "nbHits": 62,
+      "truncated": false,
+      "added": 0,
+      "fetched": 62,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddec\ud83c\udde7 United Kingdom",
+      "nbHits": 50,
+      "truncated": false,
+      "added": 40,
+      "fetched": 50,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udde9\ud83c\uddea Germany",
+      "nbHits": 45,
+      "truncated": false,
+      "added": 16,
+      "fetched": 45,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddea\ud83c\uddf8 Spain",
+      "nbHits": 41,
+      "truncated": false,
+      "added": 20,
+      "fetched": 41,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddf8\ud83c\uddec Singapore",
+      "nbHits": 34,
+      "truncated": false,
+      "added": 14,
+      "fetched": 34,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udde9\ud83c\uddea Germany (remote)",
+      "nbHits": 32,
+      "truncated": false,
+      "added": 0,
+      "fetched": 32,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\udde6\ud83c\uddf9 Austria",
+      "nbHits": 31,
+      "truncated": false,
+      "added": 15,
+      "fetched": 31,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddee\ud83c\uddf1 Israel",
+      "nbHits": 31,
+      "truncated": false,
+      "added": 17,
+      "fetched": 31,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddf3\ud83c\uddf1 Netherlands",
+      "nbHits": 31,
+      "truncated": false,
+      "added": 6,
+      "fetched": 31,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddea\ud83c\uddf8 Spain (remote)",
+      "nbHits": 30,
+      "truncated": false,
+      "added": 0,
+      "fetched": 30,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddf0\ud83c\uddf7 South Korea",
+      "nbHits": 30,
+      "truncated": false,
+      "added": 14,
+      "fetched": 30,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddf2\ud83c\uddfe Malaysia",
+      "nbHits": 30,
+      "truncated": false,
+      "added": 29,
+      "fetched": 30,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddf5\ud83c\uddf1 Poland",
+      "nbHits": 30,
+      "truncated": false,
+      "added": 10,
+      "fetched": 30,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddf5\ud83c\uddf9 Portugal",
+      "nbHits": 30,
+      "truncated": false,
+      "added": 8,
+      "fetched": 30,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddf8\ud83c\uddea Sweden",
+      "nbHits": 30,
+      "truncated": false,
+      "added": 10,
+      "fetched": 30,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Early-stage startup AND job_locations_combined:\ud83c\uddee\ud83c\uddea Ireland",
+      "nbHits": 29,
+      "truncated": false,
+      "added": 8,
+      "fetched": 29,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Other AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States",
+      "nbHits": 141,
+      "truncated": false,
+      "added": 141,
+      "fetched": 141,
+      "pages_fetched": 3
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Other AND job_locations_combined:\ud83c\udf0e Remote",
+      "nbHits": 90,
+      "truncated": false,
+      "added": 39,
+      "fetched": 90,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Other AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States (remote)",
+      "nbHits": 47,
+      "truncated": false,
+      "added": 0,
+      "fetched": 47,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Other AND job_locations_combined:\ud83c\uddec\ud83c\udde7 United Kingdom",
+      "nbHits": 32,
+      "truncated": false,
+      "added": 19,
+      "fetched": 32,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Other AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 San Francisco Bay Area",
+      "nbHits": 30,
+      "truncated": false,
+      "added": 0,
+      "fetched": 30,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Other AND job_locations_combined:\ud83c\uddee\ud83c\uddf3 India",
+      "nbHits": 24,
+      "truncated": false,
+      "added": 21,
+      "fetched": 24,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Other AND job_locations_combined:\ud83c\udde9\ud83c\uddea Germany",
+      "nbHits": 21,
+      "truncated": false,
+      "added": 11,
+      "fetched": 21,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Other AND job_locations_combined:\ud83c\uddf5\ud83c\uddf1 Poland",
+      "nbHits": 19,
+      "truncated": false,
+      "added": 5,
+      "fetched": 19,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Other AND job_locations_combined:\ud83c\uddeb\ud83c\uddf7 France",
+      "nbHits": 18,
+      "truncated": false,
+      "added": 8,
+      "fetched": 18,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Other AND job_locations_combined:\ud83c\uddee\ud83c\uddf1 Israel",
+      "nbHits": 17,
+      "truncated": false,
+      "added": 5,
+      "fetched": 17,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Other AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 New York City",
+      "nbHits": 16,
+      "truncated": false,
+      "added": 0,
+      "fetched": 16,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Other AND job_locations_combined:\ud83c\udde8\ud83c\udde6 Canada",
+      "nbHits": 15,
+      "truncated": false,
+      "added": 8,
+      "fetched": 15,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Other AND job_locations_combined:\ud83c\uddec\ud83c\udde7 London, UK",
+      "nbHits": 15,
+      "truncated": false,
+      "added": 0,
+      "fetched": 15,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Other AND job_locations_combined:\ud83c\uddea\ud83c\uddf8 Spain",
+      "nbHits": 14,
+      "truncated": false,
+      "added": 5,
+      "fetched": 14,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Other AND job_locations_combined:\ud83c\uddf5\ud83c\uddf1 Poland (remote)",
+      "nbHits": 13,
+      "truncated": false,
+      "added": 0,
+      "fetched": 13,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Other AND job_locations_combined:\ud83c\uddff\ud83c\udde6 South Africa",
+      "nbHits": 13,
+      "truncated": false,
+      "added": 4,
+      "fetched": 13,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Other AND job_locations_combined:\ud83c\udde6\ud83c\uddea United Arab Emirates",
+      "nbHits": 12,
+      "truncated": false,
+      "added": 1,
+      "fetched": 12,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Other AND job_locations_combined:\ud83c\udde8\ud83c\uddfe Cyprus",
+      "nbHits": 12,
+      "truncated": false,
+      "added": 2,
+      "fetched": 12,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Other AND job_locations_combined:\ud83c\uddec\ud83c\udde7 United Kingdom (remote)",
+      "nbHits": 12,
+      "truncated": false,
+      "added": 0,
+      "fetched": 12,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:Other AND job_locations_combined:\ud83c\uddee\ud83c\uddea Ireland",
+      "nbHits": 12,
+      "truncated": false,
+      "added": 1,
+      "fetched": 12,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:2 AND company_stage:FAANG+",
+      "nbHits": 242,
+      "truncated": false,
+      "added": 28,
+      "fetched": 242,
+      "pages_fetched": 5
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Cloud + Tech Infrastructure",
+      "nbHits": 118,
+      "truncated": false,
+      "added": 118,
+      "fetched": 118,
+      "pages_fetched": 3
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:B2B SaaS",
+      "nbHits": 103,
+      "truncated": false,
+      "added": 83,
+      "fetched": 103,
+      "pages_fetched": 3
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:AI",
+      "nbHits": 54,
+      "truncated": false,
+      "added": 14,
+      "fetched": 54,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Consumer",
+      "nbHits": 40,
+      "truncated": false,
+      "added": 35,
+      "fetched": 40,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:FinTech",
+      "nbHits": 40,
+      "truncated": false,
+      "added": 5,
+      "fetched": 40,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Security",
+      "nbHits": 38,
+      "truncated": false,
+      "added": 2,
+      "fetched": 38,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:AdTech",
+      "nbHits": 32,
+      "truncated": false,
+      "added": 14,
+      "fetched": 32,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Open Source",
+      "nbHits": 21,
+      "truncated": false,
+      "added": 0,
+      "fetched": 21,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Future of Work",
+      "nbHits": 14,
+      "truncated": false,
+      "added": 0,
+      "fetched": 14,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Consumer Social",
+      "nbHits": 11,
+      "truncated": false,
+      "added": 0,
+      "fetched": 11,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Digital Media",
+      "nbHits": 11,
+      "truncated": false,
+      "added": 0,
+      "fetched": 11,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Hardware",
+      "nbHits": 11,
+      "truncated": false,
+      "added": 6,
+      "fetched": 11,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Supply Chain",
+      "nbHits": 11,
+      "truncated": false,
+      "added": 8,
+      "fetched": 11,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Marketplaces",
+      "nbHits": 10,
+      "truncated": false,
+      "added": 4,
+      "fetched": 10,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:HealthTech",
+      "nbHits": 8,
+      "truncated": false,
+      "added": 0,
+      "fetched": 8,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Semiconductors",
+      "nbHits": 7,
+      "truncated": false,
+      "added": 2,
+      "fetched": 7,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Manufacturing",
+      "nbHits": 6,
+      "truncated": false,
+      "added": 0,
+      "fetched": 6,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Crypto",
+      "nbHits": 5,
+      "truncated": false,
+      "added": 0,
+      "fetched": 5,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Real Estate",
+      "nbHits": 4,
+      "truncated": false,
+      "added": 2,
+      "fetched": 4,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Creator Economy",
+      "nbHits": 3,
+      "truncated": false,
+      "added": 1,
+      "fetched": 3,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Tech Moonshots",
+      "nbHits": 3,
+      "truncated": false,
+      "added": 2,
+      "fetched": 3,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:GameTech",
+      "nbHits": 2,
+      "truncated": false,
+      "added": 0,
+      "fetched": 2,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Internet of Things",
+      "nbHits": 2,
+      "truncated": false,
+      "added": 0,
+      "fetched": 2,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Quantum Computing",
+      "nbHits": 2,
+      "truncated": false,
+      "added": 0,
+      "fetched": 2,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2B AND themes:Autonomous Vehicles",
+      "nbHits": 1,
+      "truncated": false,
+      "added": 0,
+      "fetched": 1,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States AND customer_type:B2C",
+      "nbHits": 224,
+      "truncated": false,
+      "added": 85,
+      "fetched": 224,
+      "pages_fetched": 5
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 San Francisco Bay Area",
+      "nbHits": 147,
+      "truncated": false,
+      "added": 9,
+      "fetched": 147,
+      "pages_fetched": 3
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Seattle",
+      "nbHits": 123,
+      "truncated": false,
+      "added": 1,
+      "fetched": 123,
+      "pages_fetched": 3
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\udf0e Remote",
+      "nbHits": 71,
+      "truncated": false,
+      "added": 13,
+      "fetched": 71,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States (remote)",
+      "nbHits": 57,
+      "truncated": false,
+      "added": 0,
+      "fetched": 57,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 New York City",
+      "nbHits": 47,
+      "truncated": false,
+      "added": 3,
+      "fetched": 47,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddee\ud83c\uddf3 India",
+      "nbHits": 33,
+      "truncated": false,
+      "added": 32,
+      "fetched": 33,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\udde8\ud83c\udde6 Canada",
+      "nbHits": 23,
+      "truncated": false,
+      "added": 13,
+      "fetched": 23,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddec\ud83c\udde7 United Kingdom",
+      "nbHits": 23,
+      "truncated": false,
+      "added": 19,
+      "fetched": 23,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddee\ud83c\uddf3 Bengaluru, India",
+      "nbHits": 23,
+      "truncated": false,
+      "added": 0,
+      "fetched": 23,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddec\ud83c\udde7 London, UK",
+      "nbHits": 18,
+      "truncated": false,
+      "added": 0,
+      "fetched": 18,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddee\ud83c\uddf1 Israel",
+      "nbHits": 11,
+      "truncated": false,
+      "added": 10,
+      "fetched": 11,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Boston",
+      "nbHits": 11,
+      "truncated": false,
+      "added": 0,
+      "fetched": 11,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddf5\ud83c\uddf1 Poland",
+      "nbHits": 9,
+      "truncated": false,
+      "added": 8,
+      "fetched": 9,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Washington D.C.",
+      "nbHits": 9,
+      "truncated": false,
+      "added": 0,
+      "fetched": 9,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\udde8\ud83c\udde6 Canada (remote)",
+      "nbHits": 8,
+      "truncated": false,
+      "added": 0,
+      "fetched": 8,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\udde8\ud83c\udde6 Toronto, Canada",
+      "nbHits": 8,
+      "truncated": false,
+      "added": 0,
+      "fetched": 8,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddee\ud83c\uddea Ireland",
+      "nbHits": 8,
+      "truncated": false,
+      "added": 7,
+      "fetched": 8,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddee\ud83c\uddf3 Hyderabad, India",
+      "nbHits": 8,
+      "truncated": false,
+      "added": 0,
+      "fetched": 8,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Public tech AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Los Angeles",
+      "nbHits": 8,
+      "truncated": false,
+      "added": 0,
+      "fetched": 8,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States",
+      "nbHits": 229,
+      "truncated": false,
+      "added": 229,
+      "fetched": 229,
+      "pages_fetched": 5
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Unicorn AND job_locations_combined:\ud83c\udf0e Remote",
+      "nbHits": 123,
+      "truncated": false,
+      "added": 40,
+      "fetched": 123,
+      "pages_fetched": 3
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 San Francisco Bay Area",
+      "nbHits": 116,
+      "truncated": false,
+      "added": 0,
+      "fetched": 116,
+      "pages_fetched": 3
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 United States (remote)",
+      "nbHits": 57,
+      "truncated": false,
+      "added": 0,
+      "fetched": 57,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 New York City",
+      "nbHits": 48,
+      "truncated": false,
+      "added": 0,
+      "fetched": 48,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Seattle",
+      "nbHits": 32,
+      "truncated": false,
+      "added": 0,
+      "fetched": 32,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Unicorn AND job_locations_combined:\ud83c\udde8\ud83c\udde6 Canada",
+      "nbHits": 26,
+      "truncated": false,
+      "added": 2,
+      "fetched": 26,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddec\ud83c\udde7 United Kingdom",
+      "nbHits": 16,
+      "truncated": false,
+      "added": 9,
+      "fetched": 16,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Unicorn AND job_locations_combined:\ud83c\udde8\ud83c\udde6 Canada (remote)",
+      "nbHits": 12,
+      "truncated": false,
+      "added": 0,
+      "fetched": 12,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddec\ud83c\udde7 London, UK",
+      "nbHits": 11,
+      "truncated": false,
+      "added": 0,
+      "fetched": 11,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Washington D.C.",
+      "nbHits": 11,
+      "truncated": false,
+      "added": 0,
+      "fetched": 11,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Unicorn AND job_locations_combined:\ud83c\udde7\ud83c\uddf7 Brazil",
+      "nbHits": 9,
+      "truncated": false,
+      "added": 5,
+      "fetched": 9,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddee\ud83c\uddf3 India",
+      "nbHits": 9,
+      "truncated": false,
+      "added": 8,
+      "fetched": 9,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Unicorn AND job_locations_combined:\ud83c\udde8\ud83c\udde6 Toronto, Canada",
+      "nbHits": 8,
+      "truncated": false,
+      "added": 0,
+      "fetched": 8,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddee\ud83c\uddf3 Bengaluru, India",
+      "nbHits": 8,
+      "truncated": false,
+      "added": 0,
+      "fetched": 8,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Chicago",
+      "nbHits": 8,
+      "truncated": false,
+      "added": 0,
+      "fetched": 8,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Unicorn AND job_locations_combined:\ud83c\udde9\ud83c\uddea Germany",
+      "nbHits": 7,
+      "truncated": false,
+      "added": 5,
+      "fetched": 7,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddf8\ud83c\uddec Singapore",
+      "nbHits": 7,
+      "truncated": false,
+      "added": 5,
+      "fetched": 7,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Boston",
+      "nbHits": 7,
+      "truncated": false,
+      "added": 0,
+      "fetched": 7,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Unicorn AND job_locations_combined:\ud83c\uddfa\ud83c\uddf8 Los Angeles",
+      "nbHits": 7,
+      "truncated": false,
+      "added": 0,
+      "fetched": 7,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Early-stage startup",
+      "nbHits": 71,
+      "truncated": false,
+      "added": 71,
+      "fetched": 71,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:Other",
+      "nbHits": 132,
+      "truncated": false,
+      "added": 132,
+      "fetched": 132,
+      "pages_fetched": 3
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:4 AND company_stage:FAANG+",
+      "nbHits": 167,
+      "truncated": false,
+      "added": 11,
+      "fetched": 167,
+      "pages_fetched": 4
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:5 AND company_stage:Public tech",
+      "nbHits": 137,
+      "truncated": false,
+      "added": 137,
+      "fetched": 137,
+      "pages_fetched": 3
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:5 AND company_stage:Unicorn",
+      "nbHits": 107,
+      "truncated": false,
+      "added": 107,
+      "fetched": 107,
+      "pages_fetched": 3
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:5 AND company_stage:Early-stage startup",
+      "nbHits": 21,
+      "truncated": false,
+      "added": 21,
+      "fetched": 21,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:5 AND company_stage:Other",
+      "nbHits": 61,
+      "truncated": false,
+      "added": 61,
+      "fetched": 61,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:5 AND company_stage:FAANG+",
+      "nbHits": 16,
+      "truncated": false,
+      "added": 0,
+      "fetched": 16,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:0 AND company_stage:Public tech",
+      "nbHits": 61,
+      "truncated": false,
+      "added": 61,
+      "fetched": 61,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:0 AND company_stage:Unicorn",
+      "nbHits": 58,
+      "truncated": false,
+      "added": 58,
+      "fetched": 58,
+      "pages_fetched": 2
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:0 AND company_stage:Early-stage startup",
+      "nbHits": 5,
+      "truncated": false,
+      "added": 5,
+      "fetched": 5,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:0 AND company_stage:Other",
+      "nbHits": 7,
+      "truncated": false,
+      "added": 7,
+      "fetched": 7,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:0 AND company_stage:FAANG+",
+      "nbHits": 8,
+      "truncated": false,
+      "added": 0,
+      "fetched": 8,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:6 AND company_stage:Public tech",
+      "nbHits": 21,
+      "truncated": false,
+      "added": 21,
+      "fetched": 21,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:6 AND company_stage:Unicorn",
+      "nbHits": 15,
+      "truncated": false,
+      "added": 15,
+      "fetched": 15,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:6 AND company_stage:Early-stage startup",
+      "nbHits": 7,
+      "truncated": false,
+      "added": 7,
+      "fetched": 7,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:6 AND company_stage:Other",
+      "nbHits": 13,
+      "truncated": false,
+      "added": 13,
+      "fetched": 13,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:7 AND company_stage:Public tech",
+      "nbHits": 1,
+      "truncated": false,
+      "added": 1,
+      "fetched": 1,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:7 AND company_stage:Unicorn",
+      "nbHits": 3,
+      "truncated": false,
+      "added": 3,
+      "fetched": 3,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:7 AND company_stage:Early-stage startup",
+      "nbHits": 1,
+      "truncated": false,
+      "added": 1,
+      "fetched": 1,
+      "pages_fetched": 1
+    },
+    {
+      "label": "job_categories_lvl0:Product Management AND level:7 AND company_stage:Other",
+      "nbHits": 4,
+      "truncated": false,
+      "added": 4,
+      "fetched": 4,
+      "pages_fetched": 1
     }
   ],
-  "hits_per_page": 50,
-  "max_pages": 10,
-  "all": false,
-  "note": "Personal research canvas. Data from Lenny's Jobs / TrueUp. Not affiliated. API typically caps ~6 pages per query."
+  "coverage_vs_category": 0.8216,
+  "coverage_vs_pm_query": 0.858
 }

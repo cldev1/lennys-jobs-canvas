@@ -27,6 +27,7 @@
     levelFilter: document.getElementById("levelFilter"),
     sortSelect: document.getElementById("sortSelect"),
     salaryOnly: document.getElementById("salaryOnly"),
+    remoteOnly: document.getElementById("remoteOnly"),
     resetFilters: document.getElementById("resetFilters"),
     resultCount: document.getElementById("resultCount"),
     cards: document.getElementById("cards"),
@@ -131,6 +132,7 @@
     const location = el.locationFilter.value;
     const level = el.levelFilter.value;
     const salaryOnly = el.salaryOnly.checked;
+    const remoteOnly = el.remoteOnly.checked;
     const sort = el.sortSelect.value;
 
     let list = state.jobs.filter((j) => {
@@ -138,6 +140,7 @@
       if (location && j.location !== location) return false;
       if (level !== "" && String(j.level) !== level) return false;
       if (salaryOnly && j.salary_range_min == null && j.salary_range_max == null) return false;
+      if (remoteOnly && !j.remote) return false;
       if (!matchesSearch(j, q)) return false;
       return true;
     });
@@ -173,6 +176,7 @@
       : "";
     const url = job.url || "#";
     const pills = [
+      job.remote ? `<span class="pill remote">Remote</span>` : "",
       job.location ? `<span class="pill">${escapeHtml(job.location)}</span>` : "",
       level ? `<span class="pill">${escapeHtml(level)}</span>` : "",
       salary ? `<span class="pill salary">${escapeHtml(salary)}</span>` : "",
@@ -211,12 +215,13 @@
       n === total ? `${n.toLocaleString()} jobs` : `${n.toLocaleString()} of ${total.toLocaleString()} jobs`;
     el.emptyState.hidden = n > 0;
     // Cap DOM for snappy UI; filters still apply to full set shown count.
-    const slice = state.filtered.slice(0, 400);
+    const SHOW_CAP = 500;
+    const slice = state.filtered.slice(0, SHOW_CAP);
     el.cards.innerHTML = slice.map(cardHtml).join("");
-    if (n > 400) {
+    if (n > SHOW_CAP) {
       el.cards.insertAdjacentHTML(
         "beforeend",
-        `<p class="empty">Showing first 400 matches — refine search to narrow further.</p>`
+        `<p class="empty">Showing first ${SHOW_CAP} matches — refine search to narrow further.</p>`
       );
     }
   }
@@ -229,6 +234,7 @@
     el.levelFilter.addEventListener("change", rerun);
     el.sortSelect.addEventListener("change", rerun);
     el.salaryOnly.addEventListener("change", rerun);
+    el.remoteOnly.addEventListener("change", rerun);
     el.resetFilters.addEventListener("click", () => {
       el.searchInput.value = "";
       el.companyFilter.value = "";
@@ -236,6 +242,7 @@
       el.levelFilter.value = "";
       el.sortSelect.value = "updated_desc";
       el.salaryOnly.checked = false;
+      el.remoteOnly.checked = false;
       applyFilters();
     });
   }
@@ -252,7 +259,9 @@
 
       const m = state.meta || {};
       const when = m.fetched_at ? formatDate(m.fetched_at) : "unknown";
-      el.metaBar.textContent = `${(m.count || state.jobs.length).toLocaleString()} jobs · query “${m.query || "—"}” · fetched ${when}`;
+      const remoteN = m.remote_count ?? state.jobs.filter((j) => j.remote).length;
+      const mode = m.product_all ? "PM category (partitioned)" : `query “${m.query || "—"}”`;
+      el.metaBar.textContent = `${(m.count || state.jobs.length).toLocaleString()} jobs · ${remoteN.toLocaleString()} remote · ${mode} · fetched ${when}`;
 
       populateFilters();
       bind();
